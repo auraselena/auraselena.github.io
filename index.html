@@ -1,0 +1,184 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selena's Sandbox</title>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body>
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6">Selena's Sandbox</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <nav id="nav-menu" class="hidden absolute py-5 px-32 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none">
+              <ul class="block lg:flex">
+                <li class="group"><a href="#home" class="font-medium text-base text-dark mx-8 py-2 flex group-hover:text-primary">Home</a></li>
+                <li class="group"><a href="#about" class="font-medium text-base text-dark mx-8 py-2 flex group-hover:text-primary">About</a></li>
+                <li class="group"><a href="#portfolio" class="font-medium text-base text-dark mx-8 py-2 flex group-hover:text-primary">Projects</a></li>
+                <li class="group"><a href="https://www.github.com/auraselena" class="font-medium text-base text-dark mx-8 py-2 flex group-hover:text-primary">Github</a></li>
+                <li class="group"><a href="https://www.instagram.com/decimals.id" class="font-medium text-base text-dark mx-8 py-2 flex group-hover:text-primary">Client</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flew flex-wrap">
+          <div id="left-side" class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">Hi everyone 👋🏻 I'm <span class="block font-bold text-4xl text-slate-900">Selena Aura</span></h1>
+            <h2 class="font-medium text-lg text-primary mb-5">a <span class="text-red-800 lg:text-2xl">programmer</span> lives in Bandung, Indonesia</h2>
+            <p class="mb-10 leading-relaxed text-secondary text-base">
+              After graduating from the Department of Mathematics at Brawijaya University, I made the decision to switch my career path to the field of IT. I explored Data Analysis, a bit of UX Design, and basics of web development before
+              ultimately committing to learn full-stack web development. I pursue the skills in Purwadhika School in October 2022 - May 2023.
+            </p>
+
+            <a href="#" class="text-base text-white font-semibold bg-primary px-3 py-3 rounded-full hover:opacity-90 transition duration-300 ease-in-out">Download my resume</a>
+          </div>
+          <div id="right-side" class="w-full self-center px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 lg:right-0">
+              <img src="dist/img/selena.png" alt="Selena Aura" class="max-w-full mx-auto" />
+              <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-150">
+                <svg width="500" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#fbbf24"
+                    d="M53.1,-18.5C60.2,4.5,51.3,31.4,34.7,42.2C18.1,52.9,-6.2,47.4,-27.5,33.1C-48.9,18.7,-67.3,-4.6,-62.2,-24.9C-57.1,-45.2,-28.6,-62.5,-2.8,-61.6C23,-60.7,46,-41.6,53.1,-18.5Z"
+                    transform="translate(100 100) scale(1.1)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="pt-28">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+            <h2 class="font-medium text-dark text-2xl mb-5 max-w-md lg:text-4xl">Being a career switcher is not easy, but sure it was worth the journey.</h2>
+            <p class="font-medium text-base text-base text-secondary">
+              For someone who's already in her mid 20s, it was a super-big decision and it took a while for me to do the research and preparation. But helped by my strong determination, adaptability, and a constant willingness to learn new
+              things, I was enabled to learn all the materials.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3 class="font-medium text-dark text-2xl mb-4 lg:pt-10">Let's keep in touch!</h3>
+            <p class="font-medium text-base text-base text-secondary lg:text-lg">Drop me a message at auraselena [dot] ph [at] gmail [dot] com, or simply go through a button below. I'll see you there! :)</p>
+            <div class="flex justify-center items-center my-7">
+              <a href="mailto:auraselena.ph@gmail.com" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary hover:border-secondary hover:bg-red-200">
+                <svg width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/auraselena" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary hover:border-secondary hover:bg-red-200">
+                <svg class="fill-current" role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>LinkedIn</title>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/selenaura" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary hover:border-secondary hover:bg-red-200">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- <a href="https://slleyna.medium.com" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary hover:border-secondary hover:bg-red-200">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Medium</title>
+                  <path
+                    d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"
+                  />
+                </svg>
+              </a> -->
+              <a href="https://www.twitter.com/fullsunstealer" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary hover:border-secondary hover:bg-red-200">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Twitter</title>
+                  <path
+                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                  />
+                </svg>
+              </a>
+              <a href="https://discordapp.com/users/809243344945152000" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-primary hover:border-secondary hover:bg-red-200">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Discord</title>
+                  <path
+                    d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="pt-28 pb-16 bg-red-100">
+      <div class="container">
+        <h4 class="font-semibold text-primary text-lg mb-2 px-4">Portfolio</h4>
+        <h2 class="font-bold text-3xl mb-4 px-4">Previous Projects</h2>
+        <div class="w-full px-4 flex flex-wrap justify-center">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-lg overflow-hidden pb-8 bg-white">
+              <img src="dist/img/big4commerce.png" alt="Multi Warehouse E-commerce" class="w-full mb-4" />
+              <h3 class="font-medium text-gray-500 lg:text-lg px-8">May 16, 2023</h3>
+              <h3 class="font-bold text-base text-secondary lg:text-lg px-8 py-4">Big4commerce: a multi warehouse e-commerce</h3>
+              <p class="text-base text-secondary lg:text-lg px-8">
+                I was responsible to show user's transaction list, user's transaction details, seller's stock history, admin's assignment process, and manage uploader for user's payment proof...
+                <br><br>
+                <a href="https://github.com/ridhozhr10/JCWDOL00808/tree/development/projects" class="text-base text-white font-semibold bg-primary px-2 py-2 rounded-full hover:opacity-90 transition duration-300 ease-in-out">See in Github</a>
+              </p>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-lg overflow-hidden pb-8 bg-white">
+              <img src="dist/img/connectme.png" alt="ConnectMe!" class="w-full mb-4" />
+              <h3 class="font-medium text-gray-500 lg:text-lg px-8">Feb 13, 2023</h3>
+              <h3 class="font-bold text-base text-secondary lg:text-lg px-8 py-4">ConnectMe! connects us to each other</h3>
+              <p class="text-base text-secondary lg:text-lg px-8">
+                Is a socmed-like platform that allows users to share images and written stories. It provides a visually focused experience where users can upload their images and interact with other users through their posts...
+                <br><br>
+                <a href="https://github.com/auraselena/ConnectMe_BE" class="text-base text-white font-semibold bg-primary px-2 py-2 rounded-full hover:opacity-90 transition duration-300 ease-in-out">See in Github</a>
+              </p>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-lg overflow-hidden pb-8 bg-white">
+              <img src="dist/img/portfolio.png" alt="Portfolio Trial" class="w-full mb-4" />
+              <h3 class="font-medium text-gray-500 lg:text-lg px-8">Dec 11, 2023</h3>
+              <h3 class="font-bold text-base text-secondary lg:text-lg px-8 py-4">Portfolio trial</h3>
+              <p class="text-base text-secondary lg:text-lg px-8">I tried making super-simple profile page of me. Was made using bootstrap...
+                <br><br>
+                <a href="#" class="text-base text-white font-semibold bg-primary px-2 py-2 rounded-full hover:opacity-90 transition duration-300 ease-in-out">See in Github</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <div class="w-full py-2 border-slate-800 flex items-center justify-center">
+            <p class="font-medium text-sm">
+                Made by Selena Aura using Tailwind CSS 3, May 29 2023.
+            </p>
+        </div>
+    </footer>
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
