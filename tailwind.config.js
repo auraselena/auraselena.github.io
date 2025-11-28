@@ -8,10 +8,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#f97316',
-        secondary: '#0f172a',
-        dark: '#c2410c'
-      },
+      primary: '#38bdf8',   // sky-400
+      secondary: '#0c4a6e', // sky-950
+      dark: '#0284c7'     
+},
       screens: {
         '2xl': '1320px'
       }
